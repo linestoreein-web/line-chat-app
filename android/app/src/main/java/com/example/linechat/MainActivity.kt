@@ -7,6 +7,7 @@ import androidx.compose.runtime.*
 import com.example.linechat.data.ChatRepository
 import com.example.linechat.ui.ChatScreen
 import com.example.linechat.ui.RegistrationScreen
+import com.example.linechat.ui.AdminScreen
 import com.example.linechat.ui.theme.LineChatTheme
 
 class MainActivity : ComponentActivity() {
