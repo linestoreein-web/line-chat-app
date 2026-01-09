@@ -1,0 +1,17 @@
+# Android
+.gradle/
+.idea/
+build/
+app/build/
+*.iml
+local.properties
+
+# Node
+node_modules/
+dist/
+.env
+
+# Misc
+LineChat_Project.zip
+*.log
+.DS_Store

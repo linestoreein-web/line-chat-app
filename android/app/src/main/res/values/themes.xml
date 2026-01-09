@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.LineChat" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

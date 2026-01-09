@@ -1,0 +1,15 @@
+{
+  "name": "linechat-backend",
+  "version": "1.0.0",
+  "description": "Backend for LineChat",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240101.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.0.0"
+  }
+}

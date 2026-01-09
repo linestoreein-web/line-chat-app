@@ -1,0 +1,11 @@
+name = "linechat-worker"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "linechat-db"
+database_id = "to-be-replaced-with-real-id"
+
+[triggers]
+crons = ["0 * * * *"] # Run every hour
